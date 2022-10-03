@@ -27,6 +27,24 @@ class PlayerView(APIView):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
+    def put(self, request, pk, *args, **kwargs):
+        player = get_object_or_404(Player, pk=pk)
+        data = {
+            'name': request.data.get('name'),
+            'height': request.data.get('height'),
+            'team': request.data.get('team')
+        }
+        serializer = PlayerSerializer(instance=player, data=data, partial=True)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def delete(self, request, pk, *args, **kwargs):
+        instance = get_object_or_404(Player, pk=pk)
+        instance.delete()
+        return Response('Player deleted', status=status.HTTP_200_OK)
+
 
 class PlayerListView(APIView):
     # Get all players by team
