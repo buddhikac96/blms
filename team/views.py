@@ -28,7 +28,7 @@ class TeamView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class TeamsView(APIView):
+class TeamListView(APIView):
     # get all teams
     def get(self, request, *args, **kwargs):
         data = Team.objects.all()

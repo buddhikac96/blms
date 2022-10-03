@@ -28,7 +28,7 @@ class PlayerView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class PlayersView(APIView):
+class PlayerListView(APIView):
     # Get all players by team
     def get(self, request, pk, *args, **kwargs):
         data = Player.objects.filter(team=pk)

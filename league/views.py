@@ -30,7 +30,7 @@ class MatchView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class MatchesView(APIView):
+class MatchListView(APIView):
     # Get all matches
     def get(self, request, *args, **kwargs):
         data = Match.objects.all()
