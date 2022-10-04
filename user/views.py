@@ -68,10 +68,7 @@ class PlayerStatsAvg(APIView):
             total += mp_con.score
 
         average = total / player.game_count if player.game_count > 0 else 0
-        return Response({
-            'message': 'Player Average',
-            'data': average
-        }, status=status.HTTP_200_OK)
+        return Response({'average': average}, status=status.HTTP_200_OK)
 
 
 class CoachView(APIView):
