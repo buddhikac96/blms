@@ -1,0 +1,47 @@
+[
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "MS Dhoni",
+      "height": 176,
+      "team": 2,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Ravindra Jadeja",
+      "height": 186,
+      "team": 2,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Raturaj Gaikwad",
+      "height": 174,
+      "team": 2,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Moeen Ali",
+      "height": 190,
+      "team": 2,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Dwayne Bravo",
+      "height": 165,
+      "team": 2,
+      "game_count": 1
+    }
+  }
+]

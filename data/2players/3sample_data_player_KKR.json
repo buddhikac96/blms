@@ -1,0 +1,47 @@
+[
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Dinesh Karthik",
+      "height": 176,
+      "team": 3,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Eoin Morgan",
+      "height": 186,
+      "team": 3,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Nitish Rana",
+      "height": 174,
+      "team": 3,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Andre Russel",
+      "height": 190,
+      "team": 3,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Pat Cummins",
+      "height": 190,
+      "team": 3,
+      "game_count": 1
+    }
+  }
+]

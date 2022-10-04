@@ -1,0 +1,47 @@
+[
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Jos Butler",
+      "height": 176,
+      "team": 4,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Sanju Samson",
+      "height": 186,
+      "team": 4,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Yashashvi Jaishwal",
+      "height": 174,
+      "team": 4,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Shimron Hetmior",
+      "height": 190,
+      "team": 4,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Riyan Parag",
+      "height": 165,
+      "team": 4,
+      "game_count": 2
+    }
+  }
+]

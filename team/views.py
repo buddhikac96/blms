@@ -59,3 +59,4 @@ class TeamListView(APIView):
         if data:
             return Response(serializer.data, status=status.HTTP_200_OK)
         return Response('No teams exists', status=status.HTTP_204_NO_CONTENT)
+

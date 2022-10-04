@@ -1,0 +1,47 @@
+[
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Rohit Sharma",
+      "height": 176,
+      "team": 1,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Suryakumar Yadaw",
+      "height": 186,
+      "team": 1,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Dewald Brewis",
+      "height": 174,
+      "team": 1,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Kieron Pollard",
+      "height": 190,
+      "team": 1,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Ishan Kishan",
+      "height": 165,
+      "team": 1,
+      "game_count": 2
+    }
+  }
+]

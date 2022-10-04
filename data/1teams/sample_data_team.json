@@ -1,0 +1,34 @@
+[
+  {
+    "model": "team.Team",
+    "fields": {
+      "name": "Mumbai Indians",
+      "short_name": "MI",
+      "owner": "Mukesh Ambhani"
+    }
+  },
+  {
+    "model": "team.Team",
+    "fields": {
+      "name": "Chennai Super Kings",
+      "short_name": "CSK",
+      "owner": "CSK Group"
+    }
+  },
+  {
+    "model": "team.Team",
+    "fields": {
+      "name": "Kolkata Knight Riders",
+      "short_name": "KKR",
+      "owner": "Sharukh Khan"
+    }
+  },
+  {
+    "model": "team.Team",
+    "fields": {
+      "name": "Rajstan Royals",
+      "short_name": "RR",
+      "owner": "Manoj Badale"
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 1,
+      "match": 1,
+      "score": 75
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 2,
+      "match": 1,
+      "score": 54
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 3,
+      "match": 1,
+      "score": 18
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 4,
+      "match": 1,
+      "score": 9
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 5,
+      "match": 1,
+      "score": 32
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 6,
+      "match": 1,
+      "score": 13
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 7,
+      "match": 1,
+      "score": 66
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 8,
+      "match": 1,
+      "score": 45
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 9,
+      "match": 1,
+      "score": 25
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 10,
+      "match": 1,
+      "score": 0
+    }
+  }
+]

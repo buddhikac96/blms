@@ -1,0 +1,487 @@
+[
+  {
+    "model": "team.Team",
+    "fields": {
+      "name": "Mumbai Indians",
+      "short_name": "MI",
+      "owner": "Mukesh Ambhani"
+    }
+  },
+  {
+    "model": "team.Team",
+    "fields": {
+      "name": "Chennai Super Kings",
+      "short_name": "CSK",
+      "owner": "CSK Group"
+    }
+  },
+  {
+    "model": "team.Team",
+    "fields": {
+      "name": "Kolkata Knight Riders",
+      "short_name": "KKR",
+      "owner": "Sharukh Khan"
+    }
+  },
+  {
+    "model": "team.Team",
+    "fields": {
+      "name": "Rajstan Royals",
+      "short_name": "RR",
+      "owner": "Manoj Badale"
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Rohit Sharma",
+      "height": 176,
+      "team": 1,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Suryakumar Yadaw",
+      "height": 186,
+      "team": 1,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Dewald Brewis",
+      "height": 174,
+      "team": 1,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Kieron Pollard",
+      "height": 190,
+      "team": 1,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Ishan Kishan",
+      "height": 165,
+      "team": 1,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "MS Dhoni",
+      "height": 176,
+      "team": 2,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Ravindra Jadeja",
+      "height": 186,
+      "team": 2,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Raturaj Gaikwad",
+      "height": 174,
+      "team": 2,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Moeen Ali",
+      "height": 190,
+      "team": 2,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Dwayne Bravo",
+      "height": 165,
+      "team": 2,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Dinesh Karthik",
+      "height": 176,
+      "team": 3,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Eoin Morgan",
+      "height": 186,
+      "team": 3,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Nitish Rana",
+      "height": 174,
+      "team": 3,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Andre Russel",
+      "height": 190,
+      "team": 3,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Pat Cummins",
+      "height": 190,
+      "team": 3,
+      "game_count": 1
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Jos Butler",
+      "height": 176,
+      "team": 4,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Sanju Samson",
+      "height": 186,
+      "team": 4,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Yashashvi Jaishwal",
+      "height": 174,
+      "team": 4,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Shimron Hetmior",
+      "height": 190,
+      "team": 4,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "user.Player",
+    "fields": {
+      "name": "Riyan Parag",
+      "height": 165,
+      "team": 4,
+      "game_count": 2
+    }
+  },
+  {
+    "model": "league.Match",
+    "fields": {
+      "type": "SF",
+      "team_one": 1,
+      "team_two": 2,
+      "winner": 1,
+      "team_one_score": 187,
+      "team_two_score": 188
+    }
+  },
+  {
+    "model": "league.Match",
+    "fields": {
+      "type": "SF",
+      "team_one": 3,
+      "team_two": 4,
+      "winner": 4,
+      "team_one_score": 202,
+      "team_two_score": 192
+    }
+  },
+  {
+    "model": "league.Match",
+    "fields": {
+      "type": "F",
+      "team_one": 1,
+      "team_two": 4,
+      "winner": 1,
+      "team_one_score": 156,
+      "team_two_score": 137
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 1,
+      "match": 1,
+      "score": 75
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 2,
+      "match": 1,
+      "score": 54
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 3,
+      "match": 1,
+      "score": 18
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 4,
+      "match": 1,
+      "score": 9
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 5,
+      "match": 1,
+      "score": 32
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 6,
+      "match": 1,
+      "score": 13
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 7,
+      "match": 1,
+      "score": 66
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 8,
+      "match": 1,
+      "score": 45
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 9,
+      "match": 1,
+      "score": 25
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 10,
+      "match": 1,
+      "score": 0
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 11,
+      "match": 1,
+      "score": 34
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 12,
+      "match": 1,
+      "score": 32
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 13,
+      "match": 1,
+      "score": 7
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 14,
+      "match": 1,
+      "score": 87
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 15,
+      "match": 1,
+      "score": 12
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 16,
+      "match": 1,
+      "score": 56
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 17,
+      "match": 1,
+      "score": 43
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 18,
+      "match": 1,
+      "score": 27
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 19,
+      "match": 1,
+      "score": 28
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 20,
+      "match": 1,
+      "score": 2
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 1,
+      "match": 1,
+      "score": 13
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 2,
+      "match": 1,
+      "score": 24
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 3,
+      "match": 1,
+      "score": 25
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 4,
+      "match": 1,
+      "score": 102
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 5,
+      "match": 1,
+      "score": 34
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 16,
+      "match": 1,
+      "score": 43
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 17,
+      "match": 1,
+      "score": 29
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 18,
+      "match": 1,
+      "score": 31
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 19,
+      "match": 1,
+      "score": 33
+    }
+  },
+  {
+    "model": "league.MatchPlayerConnection",
+    "fields": {
+      "player": 20,
+      "match": 1,
+      "score": 26
+    }
+  }
+]

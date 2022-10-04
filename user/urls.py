@@ -1,13 +1,14 @@
 from django.urls import path
-from .views import PlayerView, PlayerListView, CoachView, CoachTeamView
+from .views import PlayerView, PlayerListView, CoachView, CoachTeamView, PlayerStatsAvg
 
 player_urlpatterns = [
     path('<int:pk>', PlayerView.as_view()),
-    path('', PlayerView.as_view())
+    path('', PlayerView.as_view()),
+    path('team/<int:pk>', PlayerListView.as_view())
 ]
 
-players_urlpatterns = [
-    path('team/<int:pk>', PlayerListView.as_view())
+player_stats_urlpatterns = [
+    path('average/<int:pk>', PlayerStatsAvg.as_view())
 ]
 
 coach_urlpatterns = [

@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import Player, Coach
 from .serializers import PlayerSerializer, CoachSerializer
+from league.models import MatchPlayerConnection
 
 
 class PlayerView(APIView):
@@ -54,6 +55,23 @@ class PlayerListView(APIView):
             serializer = PlayerSerializer(data, many=True)
             return Response(serializer.data, status=status.HTTP_200_OK)
         return Response('No players', status=status.HTTP_204_NO_CONTENT)
+
+
+class PlayerStatsAvg(APIView):
+    # Get player average by player_pk
+    def get(self, request, pk, *args, **kwargs):
+        player = get_object_or_404(Player, pk=pk)
+        mp_con_list = MatchPlayerConnection.objects.filter(player=pk)
+
+        total = 0
+        for mp_con in mp_con_list:
+            total += mp_con.score
+
+        average = total / player.game_count if player.game_count > 0 else 0
+        return Response({
+            'message': 'Player Average',
+            'data': average
+        }, status=status.HTTP_200_OK)
 
 
 class CoachView(APIView):

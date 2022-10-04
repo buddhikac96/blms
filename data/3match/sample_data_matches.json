@@ -1,0 +1,35 @@
+[
+  {
+    "model": "league.Match",
+    "fields": {
+      "type": "SF",
+      "team_one": 1,
+      "team_two": 2,
+      "winner": 1,
+      "team_one_score": 187,
+      "team_two_score": 188
+    }
+  },
+  {
+    "model": "league.Match",
+    "fields": {
+      "type": "SF",
+      "team_one": 3,
+      "team_two": 4,
+      "winner": 4,
+      "team_one_score": 202,
+      "team_two_score": 192
+    }
+  },
+  {
+    "model": "league.Match",
+    "fields": {
+      "type": "F",
+      "team_one": 1,
+      "team_two": 4,
+      "winner": 1,
+      "team_one_score": 156,
+      "team_two_score": 137
+    }
+  }
+]
